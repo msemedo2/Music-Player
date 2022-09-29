@@ -21,10 +21,24 @@
 
         <h2 id="title">Born To Hula</h2>
         <h3 id="artist">Queens of the Stone Age</h3>
-        <audio src="./music/Born-To-Hula.mp3" controls></audio>
+        <audio src="./music/Born-To-Hula.mp3"></audio>
 
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span class="current-time">0:00</span>
+                <span id="duration">8:00</span>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
     </div>
-
     <!-- Script -->
     <script src="script.js"></script>
 </body>

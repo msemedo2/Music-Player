@@ -58,8 +58,9 @@ h3 {
 	border-radius: 5px;
 	cursor: pointer;
 	margin: 40px 20px;
-	height: 4px;
-	width: 90%;
+	height: 6px;
+	width: 85%;
+	font-size: 15px;
 }
 
 .progress {
@@ -90,6 +91,12 @@ h3 {
 	font-size: 30px;
 	color: rgb(129, 129, 129);
 	margin-right: 30px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.fas:hover {
+	filter: brightness(80%);
 }
 
 .main-button {
